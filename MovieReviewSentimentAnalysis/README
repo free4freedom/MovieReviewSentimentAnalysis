@@ -1,0 +1,25 @@
+>Right now ABORTING!
+
+>When you start, think @ this -
+	-Everytime I get the tweets by searching the movie name, I get only 200.
+	So we need more data. Or probably I need to collect data over a long period of time.
+	
+	Or I should use "since" parameter?
+
+	-Out of 200 tweets that I get, many are "repeated" since it is 1 tweet being RT'ed.
+	Thus out of 200 only 130-140 might be unique!
+
+	-I searched "considerably" to get twitter movie data for training, didn't find.
+	All I get is - movie reviews, which I'm not sure is a correct data to train the classifier.
+
+		>Perhaps I should get a lot of tweets over a period of time & then label them manually 
+		into  - +ve / -ve & neutral.
+		> "neutral" class is very imp : Bcoz many of the tweets are - Watching XYZ movie  with P, Q, & R at ABC.
+
+
+	-I didnt do any "cleaning"/pre-processing of the tweets b4 using it for training!
+	( Too desperate to first see some results! ) 
+	So do that!
+
+	-Another way out could be : for training use just a list of +ve/-ve words.
+	And then directly feed the processed tweets to the classifier.
